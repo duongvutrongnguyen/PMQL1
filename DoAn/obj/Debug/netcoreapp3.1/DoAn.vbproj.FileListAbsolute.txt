@@ -1,0 +1,8 @@
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\netcoreapp3.1\DoAn.vbproj.AssemblyReference.cache
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\netcoreapp3.1\DoAn.frmMHChinh.resources
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\netcoreapp3.1\DoAn.frmSanPham.resources
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\netcoreapp3.1\DoAn.vbproj.GenerateResource.cache
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\netcoreapp3.1\DoAn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\netcoreapp3.1\DoAn.AssemblyInfoInputs.cache
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\netcoreapp3.1\DoAn.AssemblyInfo.vb
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\netcoreapp3.1\DoAn.vbproj.CoreCompileInputs.cache

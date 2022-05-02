@@ -17,3 +17,47 @@ E:\Mon Hoc\Lap trinh ung dung quan ly 1\DoAn\DoAn\obj\Debug\net5.0-windows\DoAn.
 E:\Mon Hoc\Lap trinh ung dung quan ly 1\DoAn\DoAn\obj\Debug\net5.0-windows\ref\DoAn.dll
 E:\Mon Hoc\Lap trinh ung dung quan ly 1\DoAn\DoAn\obj\Debug\net5.0-windows\DoAn.pdb
 E:\Mon Hoc\Lap trinh ung dung quan ly 1\DoAn\DoAn\obj\Debug\net5.0-windows\DoAn.genruntimeconfig.cache
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\net5.0-windows\DoAn.vbproj.AssemblyReference.cache
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\net5.0-windows\DoAn.frmMHChinh.resources
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\net5.0-windows\DoAn.frmSanPham.resources
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\net5.0-windows\DoAn.vbproj.GenerateResource.cache
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\net5.0-windows\DoAn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\net5.0-windows\DoAn.AssemblyInfoInputs.cache
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\net5.0-windows\DoAn.AssemblyInfo.vb
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\net5.0-windows\DoAn.vbproj.CoreCompileInputs.cache
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\net5.0-windows\DoAn.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\net5.0-windows\ref\DoAn.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\net5.0-windows\DoAn.pdb
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\qlkho.accdb
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\DoAn.exe
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\DoAn.deps.json
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\DoAn.runtimeconfig.json
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\DoAn.runtimeconfig.dev.json
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\DoAn.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\ref\DoAn.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\DoAn.pdb
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\System.Data.OleDb.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\System.Drawing.Common.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\System.Security.AccessControl.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\System.Security.Permissions.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\System.Windows.Extensions.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Security.AccessControl.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\net5.0-windows\DoAn.vbproj.CopyComplete
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\net5.0-windows\DoAn.genruntimeconfig.cache

@@ -2,7 +2,7 @@
 
 Module DuLieu
 
-    Dim ChuoiKetNoi As String = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\TPL\Source\Repos\DoAn\DoAn\qlkho.accdb;Persist Security Info=True"
+    Dim ChuoiKetNoi As String = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\qlkho.accdb;Persist Security Info=True"
     Public Function DocDuLieu(sql As String) As DataTable
         Dim connection As OleDbConnection = New OleDbConnection(ChuoiKetNoi)
         Dim command As OleDbCommand = New OleDbCommand(sql, connection)

@@ -31,7 +31,7 @@ Partial Class frmSanPham
         Me.bThem = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.tbTen = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lbTen = New System.Windows.Forms.Label()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.Panel1.SuspendLayout()
         Me.SplitContainer1.Panel2.SuspendLayout()
@@ -96,7 +96,7 @@ Partial Class frmSanPham
         Me.bXoa.Name = "bXoa"
         Me.bXoa.Size = New System.Drawing.Size(94, 29)
         Me.bXoa.TabIndex = 2
-        Me.bXoa.Text = "Button3"
+        Me.bXoa.Text = "Xoa"
         Me.bXoa.UseVisualStyleBackColor = True
         '
         'bCapNhat
@@ -105,7 +105,7 @@ Partial Class frmSanPham
         Me.bCapNhat.Name = "bCapNhat"
         Me.bCapNhat.Size = New System.Drawing.Size(94, 29)
         Me.bCapNhat.TabIndex = 1
-        Me.bCapNhat.Text = "Button2"
+        Me.bCapNhat.Text = "Cap nhat"
         Me.bCapNhat.UseVisualStyleBackColor = True
         '
         'bThem
@@ -114,13 +114,13 @@ Partial Class frmSanPham
         Me.bThem.Name = "bThem"
         Me.bThem.Size = New System.Drawing.Size(94, 29)
         Me.bThem.TabIndex = 0
-        Me.bThem.Text = "Button1"
+        Me.bThem.Text = "Them"
         Me.bThem.UseVisualStyleBackColor = True
         '
         'Panel1
         '
         Me.Panel1.Controls.Add(Me.tbTen)
-        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.lbTen)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
@@ -130,20 +130,20 @@ Partial Class frmSanPham
         'tbTen
         '
         Me.tbTen.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.tbTen.Location = New System.Drawing.Point(53, 0)
+        Me.tbTen.Location = New System.Drawing.Point(32, 0)
         Me.tbTen.Name = "tbTen"
-        Me.tbTen.Size = New System.Drawing.Size(407, 27)
+        Me.tbTen.Size = New System.Drawing.Size(428, 27)
         Me.tbTen.TabIndex = 1
         '
-        'Label1
+        'lbTen
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Label1.Location = New System.Drawing.Point(0, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(53, 20)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Label1"
+        Me.lbTen.AutoSize = True
+        Me.lbTen.Dock = System.Windows.Forms.DockStyle.Left
+        Me.lbTen.Location = New System.Drawing.Point(0, 0)
+        Me.lbTen.Name = "lbTen"
+        Me.lbTen.Size = New System.Drawing.Size(32, 20)
+        Me.lbTen.TabIndex = 0
+        Me.lbTen.Text = "Ten"
         '
         'frmSanPham
         '
@@ -175,5 +175,5 @@ Partial Class frmSanPham
     Friend WithEvents bThem As Button
     Friend WithEvents Panel1 As Panel
     Friend WithEvents tbTen As TextBox
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lbTen As Label
 End Class

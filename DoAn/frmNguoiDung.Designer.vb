@@ -35,6 +35,9 @@ Partial Class frmNguoiDung
         Me.lbTenDangNhap = New System.Windows.Forms.Label()
         Me.lbMatKhau = New System.Windows.Forms.Label()
         Me.lbLoaiTaiKhoan = New System.Windows.Forms.Label()
+        Me.bThem = New System.Windows.Forms.Button()
+        Me.bXoa = New System.Windows.Forms.Button()
+        Me.bSua = New System.Windows.Forms.Button()
         CType(Me.dgvDSNguoiDung, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -145,11 +148,41 @@ Partial Class frmNguoiDung
         Me.lbLoaiTaiKhoan.TabIndex = 3
         Me.lbLoaiTaiKhoan.Text = "Loai tai khoan"
         '
+        'bThem
+        '
+        Me.bThem.Location = New System.Drawing.Point(743, 401)
+        Me.bThem.Name = "bThem"
+        Me.bThem.Size = New System.Drawing.Size(94, 29)
+        Me.bThem.TabIndex = 4
+        Me.bThem.Text = "Them"
+        Me.bThem.UseVisualStyleBackColor = True
+        '
+        'bXoa
+        '
+        Me.bXoa.Location = New System.Drawing.Point(867, 401)
+        Me.bXoa.Name = "bXoa"
+        Me.bXoa.Size = New System.Drawing.Size(94, 29)
+        Me.bXoa.TabIndex = 4
+        Me.bXoa.Text = "Xoa"
+        Me.bXoa.UseVisualStyleBackColor = True
+        '
+        'bSua
+        '
+        Me.bSua.Location = New System.Drawing.Point(981, 401)
+        Me.bSua.Name = "bSua"
+        Me.bSua.Size = New System.Drawing.Size(94, 29)
+        Me.bSua.TabIndex = 4
+        Me.bSua.Text = "Sua"
+        Me.bSua.UseVisualStyleBackColor = True
+        '
         'frmNguoiDung
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1160, 488)
+        Me.Controls.Add(Me.bSua)
+        Me.Controls.Add(Me.bXoa)
+        Me.Controls.Add(Me.bThem)
         Me.Controls.Add(Me.lbLoaiTaiKhoan)
         Me.Controls.Add(Me.lbMatKhau)
         Me.Controls.Add(Me.lbTenDangNhap)
@@ -184,4 +217,7 @@ Partial Class frmNguoiDung
     Friend WithEvents lbTenDangNhap As Label
     Friend WithEvents lbMatKhau As Label
     Friend WithEvents lbLoaiTaiKhoan As Label
+    Friend WithEvents bThem As Button
+    Friend WithEvents bXoa As Button
+    Friend WithEvents bSua As Button
 End Class

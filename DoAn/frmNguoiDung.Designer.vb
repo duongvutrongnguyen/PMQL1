@@ -88,6 +88,7 @@ Partial Class frmNguoiDung
         '
         'cbLoaiTaiKhoan
         '
+        Me.cbLoaiTaiKhoan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbLoaiTaiKhoan.FormattingEnabled = True
         Me.cbLoaiTaiKhoan.Location = New System.Drawing.Point(836, 328)
         Me.cbLoaiTaiKhoan.Name = "cbLoaiTaiKhoan"

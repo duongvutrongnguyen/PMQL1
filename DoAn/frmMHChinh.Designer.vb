@@ -26,6 +26,7 @@ Partial Class frmMHChinh
         Me.ThongTinToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SanPhamToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.QuanLyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NguoiDungToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -41,7 +42,7 @@ Partial Class frmMHChinh
         '
         'ThongTinToolStripMenuItem
         '
-        Me.ThongTinToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SanPhamToolStripMenuItem})
+        Me.ThongTinToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SanPhamToolStripMenuItem, Me.NguoiDungToolStripMenuItem})
         Me.ThongTinToolStripMenuItem.Name = "ThongTinToolStripMenuItem"
         Me.ThongTinToolStripMenuItem.Size = New System.Drawing.Size(73, 24)
         Me.ThongTinToolStripMenuItem.Text = "Quan ly"
@@ -57,6 +58,12 @@ Partial Class frmMHChinh
         Me.QuanLyToolStripMenuItem.Name = "QuanLyToolStripMenuItem"
         Me.QuanLyToolStripMenuItem.Size = New System.Drawing.Size(86, 24)
         Me.QuanLyToolStripMenuItem.Text = "Thong tin"
+        '
+        'NguoiDungToolStripMenuItem
+        '
+        Me.NguoiDungToolStripMenuItem.Name = "NguoiDungToolStripMenuItem"
+        Me.NguoiDungToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.NguoiDungToolStripMenuItem.Text = "Nguoi dung"
         '
         'frmMHChinh
         '
@@ -79,4 +86,5 @@ Partial Class frmMHChinh
     Friend WithEvents ThongTinToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents QuanLyToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SanPhamToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents NguoiDungToolStripMenuItem As ToolStripMenuItem
 End Class

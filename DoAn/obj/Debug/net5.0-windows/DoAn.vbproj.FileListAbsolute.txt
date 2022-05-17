@@ -34,7 +34,6 @@ C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\DoAn.deps.j
 C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\DoAn.runtimeconfig.json
 C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\DoAn.runtimeconfig.dev.json
 C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\DoAn.dll
-C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\ref\DoAn.dll
 C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\DoAn.pdb
 C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\Microsoft.Win32.SystemEvents.dll
 C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\System.Configuration.ConfigurationManager.dll
@@ -61,3 +60,5 @@ C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\runtimes\wi
 C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
 C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\net5.0-windows\DoAn.vbproj.CopyComplete
 C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\net5.0-windows\DoAn.genruntimeconfig.cache
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\net5.0-windows\DoAn.frmNguoiDung.resources
+C:\Users\Nguyen\Documents\GitHub\PMQL1\DoAn\obj\Debug\net5.0-windows\refint\DoAn.dll

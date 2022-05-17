@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nguyen.dvt\\Documents\\GitHub\\PMQL1\\DoAn\\DoAn.vbproj": {}
+    "C:\\Users\\Nguyen\\Documents\\GitHub\\PMQL1\\DoAn\\DoAn.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\nguyen.dvt\\Documents\\GitHub\\PMQL1\\DoAn\\DoAn.vbproj": {
+    "C:\\Users\\Nguyen\\Documents\\GitHub\\PMQL1\\DoAn\\DoAn.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguyen.dvt\\Documents\\GitHub\\PMQL1\\DoAn\\DoAn.vbproj",
+        "projectUniqueName": "C:\\Users\\Nguyen\\Documents\\GitHub\\PMQL1\\DoAn\\DoAn.vbproj",
         "projectName": "DoAn",
-        "projectPath": "C:\\Users\\nguyen.dvt\\Documents\\GitHub\\PMQL1\\DoAn\\DoAn.vbproj",
-        "packagesPath": "C:\\Users\\nguyen.dvt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguyen.dvt\\Documents\\GitHub\\PMQL1\\DoAn\\obj\\",
+        "projectPath": "C:\\Users\\Nguyen\\Documents\\GitHub\\PMQL1\\DoAn\\DoAn.vbproj",
+        "packagesPath": "C:\\Users\\Nguyen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nguyen\\Documents\\GitHub\\PMQL1\\DoAn\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\nguyen.dvt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

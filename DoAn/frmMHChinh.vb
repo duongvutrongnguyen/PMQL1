@@ -12,4 +12,17 @@
         frm.WindowState = FormWindowState.Maximized
         frm.Show()
     End Sub
+
+    Private Sub frmMHChinh_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        Me.Hide()
+        Dim frm As frmDangNhap = New frmDangNhap()
+        Dim dr As DialogResult = frm.ShowDialog()
+        If dr = DialogResult.OK Then
+            Me.Show()
+        Else
+            Me.Close()
+        End If
+
+    End Sub
 End Class

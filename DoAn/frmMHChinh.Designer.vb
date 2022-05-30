@@ -25,8 +25,8 @@ Partial Class frmMHChinh
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ThongTinToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SanPhamToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.QuanLyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NguoiDungToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.QuanLyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -50,20 +50,20 @@ Partial Class frmMHChinh
         'SanPhamToolStripMenuItem
         '
         Me.SanPhamToolStripMenuItem.Name = "SanPhamToolStripMenuItem"
-        Me.SanPhamToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.SanPhamToolStripMenuItem.Size = New System.Drawing.Size(171, 26)
         Me.SanPhamToolStripMenuItem.Text = "San pham"
+        '
+        'NguoiDungToolStripMenuItem
+        '
+        Me.NguoiDungToolStripMenuItem.Name = "NguoiDungToolStripMenuItem"
+        Me.NguoiDungToolStripMenuItem.Size = New System.Drawing.Size(171, 26)
+        Me.NguoiDungToolStripMenuItem.Text = "Nguoi dung"
         '
         'QuanLyToolStripMenuItem
         '
         Me.QuanLyToolStripMenuItem.Name = "QuanLyToolStripMenuItem"
         Me.QuanLyToolStripMenuItem.Size = New System.Drawing.Size(86, 24)
         Me.QuanLyToolStripMenuItem.Text = "Thong tin"
-        '
-        'NguoiDungToolStripMenuItem
-        '
-        Me.NguoiDungToolStripMenuItem.Name = "NguoiDungToolStripMenuItem"
-        Me.NguoiDungToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.NguoiDungToolStripMenuItem.Text = "Nguoi dung"
         '
         'frmMHChinh
         '

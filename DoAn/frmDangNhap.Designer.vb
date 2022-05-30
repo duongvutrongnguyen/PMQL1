@@ -26,8 +26,8 @@ Partial Class frmDangNhap
         Me.lbMatKhau = New System.Windows.Forms.Label()
         Me.tbTenDangNhap = New System.Windows.Forms.TextBox()
         Me.tbMatKhau = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.bDangNhap = New System.Windows.Forms.Button()
+        Me.bThoat = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lbTenDangNhap
@@ -63,31 +63,31 @@ Partial Class frmDangNhap
         Me.tbMatKhau.Size = New System.Drawing.Size(125, 27)
         Me.tbMatKhau.TabIndex = 3
         '
-        'Button1
+        'bDangNhap
         '
-        Me.Button1.Location = New System.Drawing.Point(155, 242)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(94, 29)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "Dang nhap"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.bDangNhap.Location = New System.Drawing.Point(155, 242)
+        Me.bDangNhap.Name = "bDangNhap"
+        Me.bDangNhap.Size = New System.Drawing.Size(94, 29)
+        Me.bDangNhap.TabIndex = 4
+        Me.bDangNhap.Text = "Dang nhap"
+        Me.bDangNhap.UseVisualStyleBackColor = True
         '
-        'Button2
+        'bThoat
         '
-        Me.Button2.Location = New System.Drawing.Point(336, 242)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(94, 29)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Thoat"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.bThoat.Location = New System.Drawing.Point(336, 242)
+        Me.bThoat.Name = "bThoat"
+        Me.bThoat.Size = New System.Drawing.Size(94, 29)
+        Me.bThoat.TabIndex = 5
+        Me.bThoat.Text = "Thoat"
+        Me.bThoat.UseVisualStyleBackColor = True
         '
         'frmDangNhap
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.bThoat)
+        Me.Controls.Add(Me.bDangNhap)
         Me.Controls.Add(Me.tbMatKhau)
         Me.Controls.Add(Me.tbTenDangNhap)
         Me.Controls.Add(Me.lbMatKhau)
@@ -103,6 +103,6 @@ Partial Class frmDangNhap
     Friend WithEvents lbMatKhau As Label
     Friend WithEvents tbTenDangNhap As TextBox
     Friend WithEvents tbMatKhau As TextBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents bDangNhap As Button
+    Friend WithEvents bThoat As Button
 End Class

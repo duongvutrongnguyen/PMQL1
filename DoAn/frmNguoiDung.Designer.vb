@@ -23,11 +23,11 @@ Partial Class frmNguoiDung
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.dgvDSNguoiDung = New System.Windows.Forms.DataGridView()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.tbTen = New System.Windows.Forms.TextBox()
+        Me.tbDiaChi = New System.Windows.Forms.TextBox()
+        Me.tbNamSinh = New System.Windows.Forms.TextBox()
+        Me.tbTenDangNhap = New System.Windows.Forms.TextBox()
+        Me.tbMatKhau = New System.Windows.Forms.TextBox()
         Me.cbLoaiTaiKhoan = New System.Windows.Forms.ComboBox()
         Me.lbTen = New System.Windows.Forms.Label()
         Me.lbDiaChi = New System.Windows.Forms.Label()
@@ -37,7 +37,8 @@ Partial Class frmNguoiDung
         Me.lbLoaiTaiKhoan = New System.Windows.Forms.Label()
         Me.bThem = New System.Windows.Forms.Button()
         Me.bXoa = New System.Windows.Forms.Button()
-        Me.bSua = New System.Windows.Forms.Button()
+        Me.bCapNhat = New System.Windows.Forms.Button()
+        Me.cbHienThiXoa = New System.Windows.Forms.CheckBox()
         CType(Me.dgvDSNguoiDung, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -51,40 +52,41 @@ Partial Class frmNguoiDung
         Me.dgvDSNguoiDung.Size = New System.Drawing.Size(643, 431)
         Me.dgvDSNguoiDung.TabIndex = 0
         '
-        'TextBox1
+        'tbTen
         '
-        Me.TextBox1.Location = New System.Drawing.Point(836, 53)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(125, 27)
-        Me.TextBox1.TabIndex = 1
+        Me.tbTen.Location = New System.Drawing.Point(836, 53)
+        Me.tbTen.Name = "tbTen"
+        Me.tbTen.Size = New System.Drawing.Size(125, 27)
+        Me.tbTen.TabIndex = 1
         '
-        'TextBox2
+        'tbDiaChi
         '
-        Me.TextBox2.Location = New System.Drawing.Point(836, 104)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(125, 27)
-        Me.TextBox2.TabIndex = 1
+        Me.tbDiaChi.Location = New System.Drawing.Point(836, 104)
+        Me.tbDiaChi.Name = "tbDiaChi"
+        Me.tbDiaChi.Size = New System.Drawing.Size(125, 27)
+        Me.tbDiaChi.TabIndex = 1
         '
-        'TextBox3
+        'tbNamSinh
         '
-        Me.TextBox3.Location = New System.Drawing.Point(836, 159)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(125, 27)
-        Me.TextBox3.TabIndex = 1
+        Me.tbNamSinh.Location = New System.Drawing.Point(836, 159)
+        Me.tbNamSinh.Name = "tbNamSinh"
+        Me.tbNamSinh.Size = New System.Drawing.Size(125, 27)
+        Me.tbNamSinh.TabIndex = 1
         '
-        'TextBox4
+        'tbTenDangNhap
         '
-        Me.TextBox4.Location = New System.Drawing.Point(836, 216)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(125, 27)
-        Me.TextBox4.TabIndex = 1
+        Me.tbTenDangNhap.Location = New System.Drawing.Point(836, 216)
+        Me.tbTenDangNhap.Name = "tbTenDangNhap"
+        Me.tbTenDangNhap.Size = New System.Drawing.Size(125, 27)
+        Me.tbTenDangNhap.TabIndex = 1
         '
-        'TextBox5
+        'tbMatKhau
         '
-        Me.TextBox5.Location = New System.Drawing.Point(836, 276)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(125, 27)
-        Me.TextBox5.TabIndex = 1
+        Me.tbMatKhau.Location = New System.Drawing.Point(836, 276)
+        Me.tbMatKhau.Name = "tbMatKhau"
+        Me.tbMatKhau.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.tbMatKhau.Size = New System.Drawing.Size(125, 27)
+        Me.tbMatKhau.TabIndex = 1
         '
         'cbLoaiTaiKhoan
         '
@@ -167,21 +169,32 @@ Partial Class frmNguoiDung
         Me.bXoa.Text = "Xoa"
         Me.bXoa.UseVisualStyleBackColor = True
         '
-        'bSua
+        'bCapNhat
         '
-        Me.bSua.Location = New System.Drawing.Point(981, 401)
-        Me.bSua.Name = "bSua"
-        Me.bSua.Size = New System.Drawing.Size(94, 29)
-        Me.bSua.TabIndex = 4
-        Me.bSua.Text = "Sua"
-        Me.bSua.UseVisualStyleBackColor = True
+        Me.bCapNhat.Location = New System.Drawing.Point(981, 401)
+        Me.bCapNhat.Name = "bCapNhat"
+        Me.bCapNhat.Size = New System.Drawing.Size(94, 29)
+        Me.bCapNhat.TabIndex = 4
+        Me.bCapNhat.Text = "Cap nhat"
+        Me.bCapNhat.UseVisualStyleBackColor = True
+        '
+        'cbHienThiXoa
+        '
+        Me.cbHienThiXoa.AutoSize = True
+        Me.cbHienThiXoa.Location = New System.Drawing.Point(863, 18)
+        Me.cbHienThiXoa.Name = "cbHienThiXoa"
+        Me.cbHienThiXoa.Size = New System.Drawing.Size(159, 24)
+        Me.cbHienThiXoa.TabIndex = 5
+        Me.cbHienThiXoa.Text = "Nguoi dung da xoa"
+        Me.cbHienThiXoa.UseVisualStyleBackColor = True
         '
         'frmNguoiDung
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1160, 488)
-        Me.Controls.Add(Me.bSua)
+        Me.Controls.Add(Me.cbHienThiXoa)
+        Me.Controls.Add(Me.bCapNhat)
         Me.Controls.Add(Me.bXoa)
         Me.Controls.Add(Me.bThem)
         Me.Controls.Add(Me.lbLoaiTaiKhoan)
@@ -191,11 +204,11 @@ Partial Class frmNguoiDung
         Me.Controls.Add(Me.lbDiaChi)
         Me.Controls.Add(Me.lbTen)
         Me.Controls.Add(Me.cbLoaiTaiKhoan)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.tbMatKhau)
+        Me.Controls.Add(Me.tbTenDangNhap)
+        Me.Controls.Add(Me.tbNamSinh)
+        Me.Controls.Add(Me.tbDiaChi)
+        Me.Controls.Add(Me.tbTen)
         Me.Controls.Add(Me.dgvDSNguoiDung)
         Me.Name = "frmNguoiDung"
         Me.Text = "frmNguoiDung"
@@ -206,11 +219,11 @@ Partial Class frmNguoiDung
     End Sub
 
     Friend WithEvents dgvDSNguoiDung As DataGridView
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents tbTen As TextBox
+    Friend WithEvents tbDiaChi As TextBox
+    Friend WithEvents tbNamSinh As TextBox
+    Friend WithEvents tbTenDangNhap As TextBox
+    Friend WithEvents tbMatKhau As TextBox
     Friend WithEvents cbLoaiTaiKhoan As ComboBox
     Friend WithEvents lbTen As Label
     Friend WithEvents lbDiaChi As Label
@@ -220,5 +233,6 @@ Partial Class frmNguoiDung
     Friend WithEvents lbLoaiTaiKhoan As Label
     Friend WithEvents bThem As Button
     Friend WithEvents bXoa As Button
-    Friend WithEvents bSua As Button
+    Friend WithEvents bCapNhat As Button
+    Friend WithEvents cbHienThiXoa As CheckBox
 End Class

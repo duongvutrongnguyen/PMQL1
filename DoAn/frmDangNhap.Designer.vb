@@ -28,6 +28,7 @@ Partial Class frmDangNhap
         Me.tbMatKhau = New System.Windows.Forms.TextBox()
         Me.bDangNhap = New System.Windows.Forms.Button()
         Me.bThoat = New System.Windows.Forms.Button()
+        Me.lThongBao = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lbTenDangNhap
@@ -81,11 +82,21 @@ Partial Class frmDangNhap
         Me.bThoat.Text = "Thoat"
         Me.bThoat.UseVisualStyleBackColor = True
         '
+        'lThongBao
+        '
+        Me.lThongBao.AutoSize = True
+        Me.lThongBao.Location = New System.Drawing.Point(96, 316)
+        Me.lThongBao.Name = "lThongBao"
+        Me.lThongBao.Size = New System.Drawing.Size(53, 20)
+        Me.lThongBao.TabIndex = 6
+        Me.lThongBao.Text = "Label1"
+        '
         'frmDangNhap
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lThongBao)
         Me.Controls.Add(Me.bThoat)
         Me.Controls.Add(Me.bDangNhap)
         Me.Controls.Add(Me.tbMatKhau)
@@ -105,4 +116,5 @@ Partial Class frmDangNhap
     Friend WithEvents tbMatKhau As TextBox
     Friend WithEvents bDangNhap As Button
     Friend WithEvents bThoat As Button
+    Friend WithEvents lThongBao As Label
 End Class

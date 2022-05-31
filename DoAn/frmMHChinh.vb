@@ -1,4 +1,5 @@
 ﻿Public Class frmMHChinh
+    Public NguoiDung As DataRow
     Private Sub SanPhamToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SanPhamToolStripMenuItem.Click
         Dim frm As frmSanPham = New frmSanPham()
         frm.MdiParent = Me
@@ -19,6 +20,8 @@
         Dim frm As frmDangNhap = New frmDangNhap()
         Dim dr As DialogResult = frm.ShowDialog()
         If dr = DialogResult.OK Then
+            Me.NguoiDung = frm.NguoiDung
+            lThongTinNguoiDung.Text = NguoiDung("nd_ho_ten")
             Me.Show()
         Else
             Me.Close()
